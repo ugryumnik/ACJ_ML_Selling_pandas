@@ -1,7 +1,0 @@
-pip install -r requirements.txt
-ipython base_processing.py
-ipython boosting_processing.py
-ipython rnn_processing.py
-ipython boosting_training.py
-ipython rnn_training.py
-ipython blending.py
