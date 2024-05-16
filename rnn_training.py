@@ -121,7 +121,7 @@ dataloader_train = get_dataloader('train',
 c = 0
 for batch in dataloader_train:
     c += 1
-print('Всего батчей:', c)
+# print('Всего батчей:', c)
 
 
 # # Model
