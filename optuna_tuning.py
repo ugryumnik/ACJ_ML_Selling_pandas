@@ -14,7 +14,7 @@ from sklearn.metrics import roc_auc_score
 
 def tune_hyperparams(
     X_train, X_val, y_train, y_val, model, #cat_cols
-    n_trials, save_weights=True, fixed_params=None
+    n_trials, save_weights=False, fixed_params=None
 ):
     
     if fixed_params is None:

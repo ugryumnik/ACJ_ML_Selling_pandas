@@ -67,7 +67,7 @@ ipython boosting_training.py
 ipython rnn_training.py
 ipython blending.py
 ```
-Через 2-4 минуты предсказания будут сохранены в папку submissions.  
+Через 3-5 минут предсказания будут сохранены в папку submissions.  
 "rnn.csv" - предсказания LSTM  
 "lightgbm.csv" - предсказания бустинга  
 "blended_lgbm_rnn.csv" - блендинг двух моделей (именно этот файл следует использовать как файл с финальными предсказаниями)
