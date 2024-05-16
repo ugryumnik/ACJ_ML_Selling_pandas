@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```
 python inference.py
 ```
-Предсказания будут сохранены в папку submissions (сейчас она пустая).  
+Предсказания будут сохранены в папку submissions.  
 "rnn.csv" - предсказания LSTM  
 "lightgbm.csv" - предсказания бустинга  
 "blended_lgbm_rnn.csv" - блендинг двух моделей (именно его следует использовать при проверке воспроизводимости решения)
