@@ -33,7 +33,7 @@
 ## Результаты
 LSTM: 77.18% AUC  
 LGBMClassifier: 77.51% AUC  
-BLENDED (0.375 * LSTM + 0.625 * LGBM): 77.65% AUC  
+BLENDED (0.375 * LSTM + 0.625 * LGBM): 77.67% AUC  
 
 ## Запуск моделей
 Клонируйте репозиторий:
