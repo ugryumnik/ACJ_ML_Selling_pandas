@@ -79,5 +79,7 @@ ipython blending.py
 
 2. Общая логика и значительная часть кода для обучения LSTM заимствованы из данного репозитория: https://github.com/smirnovevgeny/AlfaBattle2.0
 
+3. В случае проблем пишите в телеграм: @ugryumnik
+
 
 
