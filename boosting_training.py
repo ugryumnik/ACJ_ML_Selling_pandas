@@ -280,13 +280,3 @@ submit.to_csv(f'submissions/lightgbm.csv', index=False)
 
 
 model_l.save_model('weights/lightgbm_without_validation.txt', importance_type='gain')
-
-
-# # Интерпретация модели
-
-# In[19]:
-
-
-# Будем использовать модель, обученную с валидацией
-model_l = Booster(model_file='weights/lightgbm.txt')
-model_l.params['objective'] = 'binary'
